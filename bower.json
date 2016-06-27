@@ -16,6 +16,6 @@
     ],
     "homepage": "https://github.com/jarends/jsdictionary",
     "ignore": [
-        "**/.*",
+        "**/.*"
     ]
 }

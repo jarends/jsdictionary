@@ -1,2 +1,2 @@
 # jsdictionary
-a key value map with objects as keys
+a key value map which allows objects as keys

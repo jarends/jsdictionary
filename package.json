@@ -1,0 +1,22 @@
+{
+    "name": "jsdictionary",
+    "version": "0.0.1",
+    "description": "a key value map which allows objects as keys",
+    "main": "./js/jsdictionary.js",
+    "keywords": [
+        "key",
+        "value",
+        "map",
+        "objects as keys"
+    ],
+    "author": "jarends",
+    "homepage": "https://github.com/jarends/jsdictionary",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jarends/jsdictionary.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jarends/jsdictionary/issues"
+    },
+    "license": "UNLICENSED"
+}

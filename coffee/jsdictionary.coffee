@@ -1,15 +1,12 @@
 class Dict
 
-
     @uid = 0
     @key = '__dict_uid__'
-
 
     @hasKeys: (obj) ->
         for key of obj
           return true
         false
-
 
     @getUID: (key) ->
         return 'null' if not key?
@@ -35,52 +32,41 @@ class Dict
         uid
 
 
-
-
     constructor: () ->
         @datas = {}
-
 
     map: (key, value) ->
         @datas[Dict.getUID(key)] = { key:key, value:value }
         value
 
-
     unmap: (key) ->
         delete @datas[Dict.getUID(key)]
         null
 
-
     get: (key) ->
         @datas[Dict.getUID(key)]?.value
-
 
     has: (key) ->
         @datas[Dict.getUID(key)] != null
 
-
     clear: () ->
         @datas = {}
-
 
     isEmpty: () ->
         for uid of @datas
             return true
         false
 
-
     length: () ->
         i = 0
         ++i for uid of @datas
         i
 
-
     forEach: (callback) ->
         callback(data.key, data.value) for uid, data of @datas
         null
 
-
-if(module)
+if module?
     ### node export ###
     module.exports = Dict
 else

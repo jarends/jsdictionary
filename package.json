@@ -10,10 +10,10 @@
         "objects as keys"
     ],
     "author": "jarends",
-    "homepage": "https://github.com/jarends/jsdictionary",
+    "homepage": "https://github.com/jarends/jsdictionary#readme",
     "repository": {
         "type": "git",
-        "url": "git://github.com/jarends/jsdictionary.git"
+        "url": "https://github.com/jarends/jsdictionary.git"
     },
     "bugs": {
         "url": "https://github.com/jarends/jsdictionary/issues"

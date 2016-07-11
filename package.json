@@ -1,6 +1,6 @@
 {
     "name": "jsdictionary",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "a key value map which allows objects as keys",
     "main": "./js/jsdictionary.js",
     "keywords": [
@@ -18,5 +18,5 @@
     "bugs": {
         "url": "https://github.com/jarends/jsdictionary/issues"
     },
-    "license": "UNLICENSED"
+    "license": "Unlicense"
 }

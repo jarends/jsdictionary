@@ -1,11 +1,11 @@
 {
     "name": "jsdictionary",
-    "description": "a key value map which allows objects as keys",
+    "description": "A key value map which allows objects as keys.",
     "main": "./js/jsdictionary.js",
     "authors": [
         "jarends"
     ],
-    "license": "UNLICENSED",
+    "license": "Unlicense",
     "keywords": [
         "key",
         "value",

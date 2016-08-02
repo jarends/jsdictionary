@@ -14,3 +14,5 @@ declare class JSDictionary
     public static getUID(key:any):any;
     public static hasKeys(obj:Object):boolean;
 }
+
+export = JSDictionary;

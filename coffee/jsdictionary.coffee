@@ -66,9 +66,5 @@ class Dict
         callback(data.key, data.value) for uid, data of @datas
         null
 
-if module?
-    ### node export ###
-    module.exports = Dict
-else
-    ### browser export ###
-    this.JSDictionary = Dict
+
+module.exports = Dict

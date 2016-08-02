@@ -13,13 +13,8 @@ A key value map which allows objects as keys.
     objectKey   = {}
     functionKey = () -> null
     
-    # node
     JSDictionary = require 'jsdictionary'
-    
-    # browser
-    # as global JSDictionary
-    
-    dict = new JSDictionary()
+    dict         = new JSDictionary()
     
     # map key, value
     dict.map nullKey,     'nullValue'

@@ -67,4 +67,4 @@ class Dict
         null
 
 
-module.exports = Dict
+module.exports = Dict.default = Dict

@@ -109,7 +109,7 @@
 
   })();
 
-  module.exports = Dict;
+  module.exports = Dict["default"] = Dict;
 
 }).call(this);
 

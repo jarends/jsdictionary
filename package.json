@@ -1,6 +1,6 @@
 {
     "name": "jsdictionary",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "a key value map which allows objects as keys",
     "main": "./js/jsdictionary.js",
     "keywords": [

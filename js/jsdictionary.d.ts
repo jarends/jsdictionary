@@ -15,4 +15,4 @@ declare class JSDictionary
     public static hasKeys(obj:Object):boolean;
 }
 
-export = JSDictionary;
+export default JSDictionary;
